@@ -1,0 +1,22 @@
+Source: ion-java
+Section: java
+Priority: optional
+Maintainer: Yury Zavarin <yzavarin@ebi.ac.uk>
+Build-Depends:
+ debhelper (>= 9),
+ libmaven-antrun-plugin-java,
+ libmaven-jar-plugin-java,
+ libsurefire-java,
+ maven-debian-helper (>= 1.5),
+Build-Depends-Indep:
+ default-jdk,
+ junit4 (>= 4.12)
+Standards-Version: 3.9.7
+
+Package: libion-java
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${maven:Depends},
+ default-jdk,
+Description: A Java implementation of the Ion data notation

@@ -1,0 +1,11 @@
+debhelper-build-stamp
+files
+libion-java.debhelper.log
+libion-java.poms
+libion-java.substvars
+libion-java/
+maven-repo/
+maven.cleanIgnoreRules
+maven.ignoreRules
+maven.publishedRules
+stamp-poms-patched
